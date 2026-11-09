@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>LovI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="background"></div>
+    <header>
+        <a href="index.html">
+            <img src="lovi.png" alt="lovi">
+        </a>
+    </header>
+    <main>
+        <div id="album-menu">
+            <div id="album-list">
+                <button class="album-item"> <img src="albums/album_sunrise.jpg" alt=""> </button>
+                <button class="album-item"> <img src="albums/album_sunset.jpg" alt=""> </button>
+                <button class="album-item"> <img src="albums/album_defaul.jpg" alt=""> </button>
+            </div>
+        </div>
+        
+        <div id="album">
+            <button id="arrow-left"><</button>
+            <img id="album-icon" src="albums/album_defaul.jpg" alt="album">
+            <button id="arrow-right">></button>
+        </div>
+
+        <div id="songs">
+            <div id="separator"></div>
+            <p>01&nbsp;&nbsp;&nbsp;&nbsp;|--------------------------------</p>
+            <p>02&nbsp;&nbsp;&nbsp;&nbsp;|--------------------------------</p>
+            <p>03&nbsp;&nbsp;&nbsp;&nbsp;|--------------------------------</p>
+            <p>04&nbsp;&nbsp;&nbsp;&nbsp;|--------------------------------</p>
+            <p>05&nbsp;&nbsp;&nbsp;&nbsp;|--------------------------------</p> 
+            <p>06&nbsp;&nbsp;&nbsp;&nbsp;|--------------------------------</p>    
+        </div>
+    </main>
+
+    <footer>
+        <button id="select-album"> <img src="albums/album_defaul.jpg" alt="album"> </button>
+        <div id="player">
+            <div id="playback">
+               <button></button>
+               <button></button>
+               <button></button> 
+            </div>
+            
+            <div id="progress">
+                <span>-:--</span>
+                <div id="line"></div>
+                <span>-:--</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
