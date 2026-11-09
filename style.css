@@ -35,7 +35,7 @@ main {
     height: 100vh;
 }
 
-#pl {
+#lovi {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -43,7 +43,7 @@ main {
     cursor: pointer;
 }
 
-#pl img {
+#lovi img {
     display: block;
     width: 100%;
     height: auto;
