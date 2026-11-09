@@ -5,7 +5,7 @@ const span_seconds = document.getElementById("seconds");
 
 const div_box = document.getElementById("box");
 
-const div_pl = document.getElementById("pl");
+const div_pl = document.getElementById("lovi");
 
 //#region birthday counter
 const target_date = new Date(2026, 10, 22, 0, 0, 0);
