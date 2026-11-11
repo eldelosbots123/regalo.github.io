@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="theme-color" content="#121212">
+
+    <title>LovI</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="background"></div>
+
+    <header>
+        <a href="index.html">
+            <img src="lovi.png" alt="LovI" draggable="false">
+        </a>
+    </header>
+
+    <main>
+        <div id="album-menu">
+            <div id="album-list">
+                <button class="album-item">
+                    <img src="albums/album_sunrise.jpg" alt="" draggable="false">
+                </button>
+
+                <button class="album-item">
+                    <img src="albums/album_sunset.jpg" alt="" draggable="false">
+                </button>
+
+                <button class="album-item">
+                    <img src="albums/album_defaul.jpg" alt="" draggable="false">
+                </button>
+            </div>
+        </div>
+
+        <div id="album">
+            <button id="arrow-left"><</button>
+
+            <img id="album-icon"
+                 src="albums/album_defaul.jpg"
+                 alt="Portada del álbum"
+                 draggable="false">
+
+            <button id="arrow-right">></button>
+        </div>
+
+        <div id="songs">
+            <div id="separator"></div>
+
+            <p>01&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>02&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>03&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>04&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>05&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>06&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+    </main>
+
+    <footer>
+        <button id="select-album">
+            <img src="albums/album_defaul.jpg" alt="" draggable="false">
+        </button>
+
+        <div id="player">
+            <div id="playback">
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+
+            <div id="progress">
+                <span>-:--</span>
+                <div id="line"></div>
+                <span>-:--</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
